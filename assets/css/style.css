@@ -7,8 +7,8 @@
 
 /* ----utility---- */
 .container{
-   margin: 10px auto;
-   max-width: 880px;
+   margin: 0px auto;
+   max-width: 800px;
 }
 
 .debug{
@@ -85,6 +85,40 @@ header .navbar{
    border: 1px dashed black; /*DIMENSION-DEBUG*/
 }
 
+/* ====footer==== */
+/* ---footer section--- */
+footer{
+   background-color: #23272B;
+}
 
+footer section{
+   display: flex;
+   height: 300px; /*DIMENSION-DEBUG*/
+   padding: 10px 0;
 
+}
 
+footer .footer-social{
+   background-color: #F0817F;
+   height: 280px; /*DIMENSION-DEBUG*/
+   width: 30%;
+   border: 1px dashed black; /*DIMENSION-DEBUG*/
+}
+footer .footer-info{
+   background-color: #20B3AA;
+   display: flex;
+   height: 280px; /*DIMENSION-DEBUG*/
+   width: 70%;
+   border: 1px dashed black; /*DIMENSION-DEBUG*/
+}
+footer .footer-info div{
+   border: 1px dashed black;
+   width: 25%; /*DIMENSION-DEBUG*/
+}
+.footer-end{
+   display: flex;
+   justify-content: space-between;
+   background-color: #80FFD2;
+   padding: 10px 0;
+   margin-top: 15px;
+}
