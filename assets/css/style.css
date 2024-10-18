@@ -1,0 +1,90 @@
+/* ----main style---- */
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+/* ----utility---- */
+.container{
+   margin: 10px auto;
+   max-width: 880px;
+}
+
+.debug{
+   background-color: black; /*DIMENSION-DEBUG*/
+   border: 1px solid red;
+}
+
+/* ====header style==== */
+header{
+   background-color: #ADD8E8;
+   padding: 8px;
+}
+header .navbar{
+   display: flex;
+   justify-content: space-between;
+   padding: 5px;
+   border: 1px dashed black; /*DIMENSION-DEBUG*/
+   background-color: #DAA623;
+}
+.navbar nav ul{
+   display: flex;
+   list-style: none;
+}
+.navbar nav ul li{
+   padding-left: 10px;
+}
+.navbar nav ul li a{
+   text-decoration: none;
+}
+/* ----hero section--- */
+.hero-section{
+   background-color: #04018c;
+   width: 100%;
+   height: 350px; /*DIMENSION-DEBUG*/
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.hero-content{
+   width: 600px;
+   height: 280px; /*DIMENSION-DEBUG*/
+   background-color: #EE82EE;
+   border: 1px dashed black; /*DIMENSION-DEBUG*/
+   text-align: center;
+}
+
+/* ====banner section==== */
+.banner-section{
+   background-color: #fff;
+   padding: 15px;
+}
+.bg-grey{
+   background-color: lightgray;
+}
+.banner{
+   display: flex;
+   height: 300px; /*DIMENSION-DEBUG*/
+   border: 1px dashed black;
+}
+.banner .testo{
+   width: 40%;
+   background-color: #FCC0CA;
+   border: 1px dashed black; /*DIMENSION-DEBUG*/
+}
+.banner .img{
+   width: 60%;
+   background-color: #1E8FFF;
+   border: 1px dashed black; /*DIMENSION-DEBUG*/
+}
+
+.end-banner{
+   background-color: #218B21;
+   height: 500px; /*DIMENSION-DEBUG*/
+   border: 1px dashed black; /*DIMENSION-DEBUG*/
+}
+
+
+
+
